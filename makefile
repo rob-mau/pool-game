@@ -32,8 +32,8 @@ $(OBJ1).o: $(OBJ1).c
 $(OBJ2).o: $(OBJ2).c 
 	$(CC) -c $(OBJ2).c
 #------------------------------------------------------------
-# Command that can be specified inline: make clean. Removes all the files
-# created before with "make" command.
+# Command that can be specified inline: make clean. 
+# Removes all the files created before with "make" command.
 #------------------------------------------------------------
 clean:
 	rm -rf *.o $(MAIN) 

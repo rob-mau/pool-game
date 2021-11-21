@@ -10,9 +10,9 @@
 
 #define COL_DEPTH	32	// color depth
 
-#define HR		1024	// horizontal resolution of the window	[pixel]
-#define VR		768	// vertical resolution of the window  	[pixel]
-#define WP		50	// width of the panel			[pixel]
+#define HR		1024	// horizontal resolution of the window			[pixel]
+#define VR		768     // vertical resolution of the window			[pixel]
+#define WP		50      // width of the panel		        		[pixel]
 
 #define H_DMD		9	// number of diamonds on the horizontal rail (included those hidden by covers)
 #define V_DMD		5	// number of diamonds on the vertical rail (included those hidden by covers)

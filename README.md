@@ -9,3 +9,6 @@ This repository contains the C code for a simple 2D billiards simulator.
 
 ## Installation & Execution
 Compile with `make`. Run with `sudo ./main`.
+
+## GUI
+![pool_game](https://github.com/rob-mau/pool-game/assets/73101031/bf56ec99-7562-4914-b387-be5e962901a8)

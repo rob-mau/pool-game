@@ -107,32 +107,32 @@ char	 cover_file_name[PATH_LEN] = {'\0'};
 int	k;	// loop variable
 
 	for (k = 0; k < N_BALLS; k++) {
-		sprintf(ball_file_name, "balls/ball_%d.bmp", k);
+		sprintf(ball_file_name, "sprites/balls/ball_%d.bmp", k);
 		sprite_ball[k] = load_bitmap(ball_file_name, NULL);
 	}
 
 	for (k = 0; k < N_POCKETS; k++) {
-		sprintf(pocket_file_name, "pockets/pocket_%d.bmp", k + 1);
+		sprintf(pocket_file_name, "sprites/pockets/pocket_%d.bmp", k + 1);
 		sprite_pocket[k] = load_bitmap(pocket_file_name, NULL);
 	}
 
 	for (k = 0; k < N_COVERS; k++) {
-		sprintf(cover_file_name, "pockets/cover_%d.bmp", k + 1);
+		sprintf(cover_file_name, "sprites/pockets/cover_%d.bmp", k + 1);
 		sprite_cover[k] = load_bitmap(cover_file_name, NULL);
 	}
 
-	sprite_close_0 = load_bitmap("buttons/close_0.bmp", NULL);
-	sprite_close_1 = load_bitmap("buttons/close_1.bmp", NULL);
+	sprite_close_0 = load_bitmap("sprites/buttons/close_0.bmp", NULL);
+	sprite_close_1 = load_bitmap("sprites/buttons/close_1.bmp", NULL);
 
-	sprite_reset_0 = load_bitmap("buttons/reset_0.bmp", NULL);
-	sprite_reset_1 = load_bitmap("buttons/reset_1.bmp", NULL);
+	sprite_reset_0 = load_bitmap("sprites/buttons/reset_0.bmp", NULL);
+	sprite_reset_1 = load_bitmap("sprites/buttons/reset_1.bmp", NULL);
 
-	sprite_sight_0 = load_bitmap("buttons/sight_0.bmp", NULL);
-	sprite_sight_1 = load_bitmap("buttons/sight_1.bmp", NULL);
+	sprite_sight_0 = load_bitmap("sprites/buttons/sight_0.bmp", NULL);
+	sprite_sight_1 = load_bitmap("sprites/buttons/sight_1.bmp", NULL);
 
-	sprite_arrow_0 = load_bitmap("buttons/arrow_0.bmp", NULL);
-	sprite_arrow_1 = load_bitmap("buttons/arrow_1.bmp", NULL);
-	sprite_arrow_2 = load_bitmap("buttons/arrow_2.bmp", NULL);
+	sprite_arrow_0 = load_bitmap("sprites/buttons/arrow_0.bmp", NULL);
+	sprite_arrow_1 = load_bitmap("sprites/buttons/arrow_1.bmp", NULL);
+	sprite_arrow_2 = load_bitmap("sprites/buttons/arrow_2.bmp", NULL);
 }	
 
 

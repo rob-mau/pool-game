@@ -1,5 +1,4 @@
 # Pool Game Simulator
-
 This repository contains the C code for a simple 2D billiards simulator.
 
 ## Dependendencies

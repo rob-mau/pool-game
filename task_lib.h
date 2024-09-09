@@ -86,7 +86,7 @@
 
 #define _GNU_SOURCE
 
-#define PATH_LEN	25	// max length of bitmap file names (path)
+#define PATH_LEN	35	// max length of bitmap file names (path)
 #define STRG_LEN	35	// max length of a string
 #define TRL_LEN		1000	// length of the array "trail"
 #define STEP		2	// step of sampling of the trail
